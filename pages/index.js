@@ -1,13 +1,11 @@
 // import Link from 'next/link';
-import Header from '../comps/Header'
+import MyLayout from '../components/MyLayout'
 const Index = () => (
     <div>
-        {/*<Link href={{pathname:'about',query:{name:'Good'}}} onClick="javascript:alert(1)">
-            <a style={{ fontSize: 20}}>About Page</a>
-        </Link>*/}
-        <Header />
-        <p>Well Done~~Welcome to next.js
-        </p>
+        <MyLayout>
+            <p>Well Done~~Welcome to next.js
+            </p>
+        </MyLayout>
     </div>
 )
 export default Index

@@ -1,10 +1,11 @@
 //import Link from 'next/link'
 
-import Header from '../comps/Header'
+import MyLayout from '../components/MyLayout'
 
 export default() => (
     <div>
-        <Header />
-        <p>This is the about page</p>
+        <MyLayout >
+            <p>This is the about page</p>
+        </MyLayout>
     </div>
 )
