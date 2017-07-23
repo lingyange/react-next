@@ -5,6 +5,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "isomorphic-unfetch": "^2.0.0"
   }
 }
